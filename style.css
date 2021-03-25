@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+/* font-family: 'Chango', cursive; */
+
+
+h1 {
+    color: #dc6b2e;
+    font-family: 'Chango', cursive;
+}
+
+p {
+    color: rgb(192, 192, 1);
+}
+
+td{
+    border: 1px solid lightgray;
+}
+
+
+/* Your board style here */
+.racer-table td {
+    height: 100px;
+    width: 100px;
+  }
+  .racer-table td.active {
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #player1-race td.active {
+    background-image: url("./images/player_No1.png");
+  }
+  #player2-race td.active {
+    background-image: url("./images/player_No2.png");
+  }
+
+  .racer-table tr td.end {
+    background-image: url("./images/finish.png");
+    /* background-repeat: no-repeat; */
+    background-size: 100%;
+  }
